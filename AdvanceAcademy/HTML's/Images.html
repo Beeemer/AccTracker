@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>25.2.2025</title>
+</head>
+<body>
+  <!-- 1. Image -->
+    <img src="../Assets/Images/Crab.jpg" alt = "Crab Image" width = "400" height = "400" title = "Crab on the beach">
+    <hr>
+  <!-- 2. Image -->
+
+    <div style = "max-width: 300px">
+    <img src="../Assets/Images/Crab.jpg" alt="Crabby Image" width = "500" style="max-width: 100%" height = "500" title = "Crabby Image">
+    </div>
+    <hr>
+  <!-- 3.Linked Image -->
+    <h4>Linked Image</h4>
+    <a href="https://en.wikipedia.org/wiki/Crab" target = "_blank">
+      <img src="../Assets/Images/Crab.jpg" alt="Crabby" width = "400" height = "400" title = "Linked Crabby Image">
+    </a> <br> <hr>
+  <!-- 4. GIF -->
+    <h4>GIFs</h4>
+    <img src="../Assets/Images/Sunflowers.gif" alt=""> <br> <hr>
+  <!-- 5.Different Format -->
+    <picture>
+      <source
+              srcset="../Assets/Images/Crab.jpg"
+              type = "image/jpeg">
+              <img src="../Assets/Images/Crab.jpg">
+    </picture> <br> <hr>
+  <!-- 6.Semantic Image -->
+  <h4>Semantic Image</h4>
+  <figure>
+    <img src="../Assets/Images/Crab.jpg" alt="Crab" width = "350" height = "350" title = "Crab Image">
+    <figcaption>CRAB</figcaption>
+  </figure> <br> <hr>
+  <!-- 7. Mapping -->
+    <h4>Mapping</h4>
+    <img src="../Assets/Images/Crab.jpg" alt="Crab" width = "500" height = "500" title = "Crab Image" usemap = "#Sand">
+    <map name = "Sand">
+      <area shape = "rect" coords = "250,0,82,126" href="https://pixabay.com/gifs/sunflowers-bloom-nature-spin-sky-11348/" alt = "Crab Image">
+    </map> <br> <hr>
+  <!-- 8. Lazy Loading -->
+    <h4>Lazy Loading</h4>
+    <img src="../Assets/Images/Crab.jpg" alt="Crap" loading="lazy"> <br> <hr>
+
+  <svg width="100%" height="100" >
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" >
+      <animate attributeName="cx" begin = "0s" dur = "100s" from="50" to="90%" repeatCount="1" />
+    </circle>
+  </svg>
+
+</body>
+</html>
