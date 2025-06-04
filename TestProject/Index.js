@@ -159,4 +159,6 @@ function getStatsStelko(data){
 
     }
 
+    // Teauisda sdyasd
+
 }
