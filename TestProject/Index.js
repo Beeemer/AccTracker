@@ -160,5 +160,6 @@ function getStatsStelko(data){
     }
 
     // Teauisda sdyasd
-
+    // аоисуда осдаю
+    //дасдас
 }
